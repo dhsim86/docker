@@ -32,3 +32,5 @@ RUN mkdir workspace
 RUN mkdir tmp
 RUN mkdir logs
 RUN mkdir scripts
+
+COPY vimrc /home/dongho/.vimrc
