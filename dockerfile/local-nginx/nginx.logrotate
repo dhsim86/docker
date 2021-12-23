@@ -1,0 +1,18 @@
+/home/dongho/logs/nginx/root-web/access.log {
+  su root root
+  copytruncate
+  daily
+  rotate 60
+  missingok
+  dateext
+  dateformat -%Y%m%d
+}
+/home/dongho/logs/nginx/root-web/error.log {
+  su root root
+  copytruncate
+  daily
+  rotate 60
+  missingok
+  dateext
+  dateformat -%Y%m%d
+}

@@ -1,0 +1,14 @@
+set number
+set visualbell
+set autoindent
+set cindent
+set smartindent
+set bs=2
+set nocp
+set title
+set showmatch
+set tagbsearch
+set mouse=a
+set ts=4
+
+syntax on
